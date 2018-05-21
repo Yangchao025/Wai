@@ -1,0 +1,267 @@
+@import url("base.css");
+@font-face {
+    font-family: 'iconfont';  /* project id 633386 */
+    src: url('https://at.alicdn.com/t/font_633386_rev6qmw2frh33di.eot');
+    src: url('https://at.alicdn.com/t/font_633386_rev6qmw2frh33di.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_633386_rev6qmw2frh33di.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_633386_rev6qmw2frh33di.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_633386_rev6qmw2frh33di.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+.lan{
+    width: 100%;
+    height:7.7rem;
+    background: #0085fe;
+}
+.back{
+    width:100%;
+    height:0.9rem;
+    background: #0085fe;
+    display: flex;
+    align-items: center;
+}
+.back a{
+    margin-left: 0.2rem;
+}
+.fan{
+    color:white;
+}
+.home{
+    color: white;
+    margin-left: 0.2rem;
+}
+.home2{
+    height:0.7rem;
+    padding-left: 0.2rem;
+    font-size: 0.6rem;
+    color:white;
+    background: #0085fe;
+}
+.sir{
+    height:0.7rem;
+    padding-left: 0.2rem;
+    font-size: 0.4rem;
+    color:white;
+    background: #0085fe;
+    padding-top:0.2rem;
+}
+.bai{
+    width:10.3rem;
+    height:3.85rem;
+    background: white;
+    margin: auto;
+}
+.baitop{
+    margin-bottom: 0.6rem;
+}
+.time{
+    font-size: 0.5rem;
+    color: #333;
+    font-weight: bold;
+}
+.baitop span{
+    font-size: 0.3rem;
+    color: #1f93f8;
+}
+.que{
+    float: right;
+    font-weight: bold;
+    color:#0b8de1;
+}
+.baibottom{
+    width:10rem;
+    height:1.5rem;
+    margin: auto;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.style{
+    font-weight: bold;
+}
+.baibottom a{
+    font-weight: bold;
+   color: #1d97fc;
+}
+.Righ{
+    color: #d1d2d6;
+}
+.lanxia{
+    width:100%;
+    height:auto;
+}
+.feng{
+    width:10.3rem;
+    height:1.65rem;
+    border-bottom: 2px solid #999;
+    margin: auto;
+    line-height: 1.65rem;
+    font-weight: bold;
+    background: white;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+}
+.fanfan{
+    width:10.3rem;
+    height:1.5rem;
+    background: white;
+    margin: auto;
+    display:flex;
+    align-items: center;
+}
+.fanfan img{
+    width:1.05rem;
+    height:1.05rem;
+}
+.fanfan p{
+    margin-left: 0.3rem;
+}
+.one{
+    margin-left: 4rem;
+}
+.two{
+    margin-left: 0.7rem;
+    color: #000;
+    font-weight: bold;
+}
+.eat{
+    width:10.3rem;
+    height:1.5rem;
+    background: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.zuo{
+    display: flex;
+}
+.bao{
+    width:1.1rem;
+    height:0.5rem;
+    border-radius: 0.05rem;
+    background: #0a9dfd;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.3rem;
+    color: white;
+}
+.canHe{
+    margin-left: 0.2rem;
+}
+.eat p{
+    font-weight: bold;
+    margin-left: 6.8rem;
+}
+.eatfood{
+    width:10.3rem;
+    height:1.5rem;
+    background: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.zuoBian{
+    display: flex;
+}
+.baobao{
+    width:1.1rem;
+    height:0.5rem;
+    border-radius: 0.05rem;
+    background: #0a9dfd;
+    text-align: center;
+    line-height: 0.4rem;
+    font-size: 0.3rem;
+    color: white;
+}
+.canHezi{
+    margin-left: 0.2rem;
+}
+.eatfood p{
+    font-weight: bold;
+    margin-left: 6.8rem;
+    width: 1rem;
+    height:0.5rem;
+}
+.hong{
+    width:10.3rem;
+    height:1.5rem;
+    background: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.hongbao{
+    font-weight: bold;
+}
+.hong a{
+    margin-left: 6.4rem;
+    color: #666;
+    font-size: 0.4rem;
+}
+.fu{
+    width:10.3rem;
+    height:1.5rem;
+    background: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.fu a{
+    font-size: 0.4rem;
+    color: #999;
+}
+.fu p{
+    margin-left: 5.5rem;
+    font-size: 0.4rem;
+}
+.fu span{
+    margin-left: 0.2rem;
+    font-weight: bold;
+    font-size: 0.5rem;
+}
+.zhu{
+    width:10.3rem;
+    height:1.5rem;
+    background: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.bei{
+    font-weight: bold;
+}
+.zhu a{
+    font-size: 0.4rem;
+    color: #999;
+    margin-left: 5.5rem;
+}
+.last{
+    width: 100%;
+    height:1.5rem;
+}
+.lastleft{
+    width:65%;
+    height:100%;
+    background: #404143;
+    font-size: 0.6rem;
+    color: white;
+    line-height: 1.5rem;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+    float: left;
+}
+.last a{
+    display: block;
+    width:35%;
+    height:100%;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.5rem;
+    background: #56d176;
+    color: white;
+    font-weight: bold;
+    float: left;
+}

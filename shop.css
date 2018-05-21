@@ -1,0 +1,422 @@
+@import url("base.css");
+@font-face {
+    font-family: 'iconfont';  /* project id 633386 */
+    src: url('https://at.alicdn.com/t/font_633386_gmkp79g0rf2h85mi.eot');
+    src: url('https://at.alicdn.com/t/font_633386_gmkp79g0rf2h85mi.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_633386_gmkp79g0rf2h85mi.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_633386_gmkp79g0rf2h85mi.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_633386_gmkp79g0rf2h85mi.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+body{
+    height:25rem;
+    position: relative;
+}
+.header{
+    width:10.8rem;
+    height:1.4rem;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+.back{
+    width:9.85rem;
+    height:0.66rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width:52%;
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    width:18%;
+    display: flex;
+    justify-content: space-between;
+}
+.hui{
+    color: #0b8de1;
+}
+.fang{
+    color: #b5b5b5;
+}
+.fen{
+    color: #b5b5b5;
+}
+.wang{
+    width:100%;
+    height:1.9rem;
+    background: #6f303b;
+    position: relative;
+}
+.wang img{
+    width:1.86rem;
+    height:1.86rem;
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom:-1.1rem;
+}
+.wenzi{
+    width:9.84rem;
+    height:2.1rem;
+    margin: auto;
+    margin-top: 1.2rem;
+}
+.top{
+    width:100%;
+    height:0.8rem;
+    display: flex;
+    justify-content: center;
+}
+.pai{
+    width:1rem;
+    height:0.5rem;
+    background: #ffeb1a;
+    text-align: center;
+    color: #693505;
+    font-size: 0.4rem;
+    line-height: 0.55rem;
+    margin-right: 0.3rem;
+}
+.top p{
+    font-size: 0.5rem;
+}
+.song{
+    width:100%;
+    font-size: 0.35rem;
+    color:#303030;
+    text-align:center;
+}
+.ding{
+    width:100%;
+    font-size: 0.35rem;
+    color:#989898;
+    text-align:center;
+}
+.kuang{
+    width:9.4rem;
+    height:0.7rem;
+    border:1px solid #ccc;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.jian{
+    width:0.8rem;
+    height:0.4rem;
+    background: #ef7375;
+    font-size: 0.25rem;
+    color: white;
+    text-align: center;
+    line-height:0.4rem;
+}
+.man{
+    font-size: 0.3rem;
+    color:#a09d9d;
+    margin-left: 0.2rem;
+}
+.huodong{
+    font-size: 0.3rem;
+    color: #333;
+    margin-left: 2.3rem;
+}
+.qu{
+    display: block;
+    width:2.9rem;
+    height:0.7rem;
+    background: #fef4f3;
+    margin: auto;
+    margin-top: 0.2rem;
+    text-align: center;
+    font-size: 0.35rem;
+    color: #693621;
+    line-height: 0.7rem;
+    margin-bottom: 0.2rem;
+}
+.can{
+    width:100%;
+    height:1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #999;
+}
+.can a{
+    color: #333;
+    position: relative;
+}
+.active{
+    font-weight: bold;
+}
+.active::before{
+    content: "";
+    position: absolute;
+    bottom:-0.3rem;
+    width:100%;
+    height:0.1rem;
+    border-radius: 0.05rem;
+    background: #009cfd;
+}
+.re{
+    width:100%;
+    height:auto;
+    margin-top: 0.2rem;
+    overflow: hidden;
+}
+.releft{
+    width:2.2rem;
+    height:auto;
+    float: left;
+}
+.releft li{
+    width:100%;
+    height:1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    background: #f8f8f8;
+    border-bottom: 1px solid #999;
+}
+.releft li a{
+    font-size: 0.4rem;
+    color: #333;
+}
+#act{
+    background: #fff;
+}
+.reright{
+    width:8.3rem;
+    height:2.7rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+.reright a{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.reright a img{
+    width:2.17rem;
+    height:2.17rem;
+}
+.you{
+    width:5.5rem;
+    height:2.17rem;
+}
+.shang{
+    width:100%;
+    font-size: 0.4rem;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+.la{
+    color: red;
+}
+.haoping{
+    width:100%;
+    font-size: 0.35rem;
+    color: #8c8c8c;
+    margin-top: 0.1rem;
+}
+.bottom{
+    margin-top: 0.4rem;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom span{
+    color:#fe6500;
+}
+.j{
+    width:0.5rem;
+    height:0.5rem;
+    border-radius: 50%;
+    background: #2194fe;
+    text-align: center;
+    line-height: 0.5rem;
+    font-size: 0.5rem;
+    color: white;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 633386 */
+    src: url('https://at.alicdn.com/t/font_633386_c4tvrg533e17zaor.eot');
+    src: url('https://at.alicdn.com/t/font_633386_c4tvrg533e17zaor.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_633386_c4tvrg533e17zaor.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_633386_c4tvrg533e17zaor.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_633386_c4tvrg533e17zaor.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+.box{
+    display: block;
+    width:10.8rem;
+    height:auto;
+    /*position: absolute;*/
+    /*left: 0;*/
+}
+.jianqu{
+    width:100%;
+    height:0.85rem;
+    background: #f7f3d0;
+    text-align: center;
+    font-size: 0.35rem;
+    line-height: 0.85rem;
+}
+.jianqu span{
+    font-size: 0.35rem;
+    color:#f69033;
+}
+.you{
+    font-size: 0.35rem;
+}
+.ago{
+    width:100%;
+    height:1.15rem;
+    background: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.agoleft{
+    width:3.2rem;
+    height:0.5rem;
+    margin-left: 0.2rem;
+    font-size: 0.4rem;
+}
+.agoleft span{
+    font-size: 0.3rem;
+    color: #999;
+}
+.agoright{
+    width:1.5rem;
+    height:0.5rem;
+    margin-right: 0.2rem;
+    font-size: 0.4rem;
+    color: #333;
+}
+.qing{
+    color: #999;
+}
+.xuan{
+    width:100%;
+    height:1.55rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gong {
+    font-size: 0.45rem;
+    font-weight: bold;
+    margin-left: 0.2rem;
+}
+.jia{
+    width: 3rem;
+    margin-right: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.money{
+    color: #fd4f34;
+}
+.jianhao{
+    color: #009cfd;
+    margin-left: 0.1rem;
+}
+.jiahao{
+    width:0.45rem;
+    height:0.45rem;
+    border-radius: 50%;
+    background: #2196fd;
+    color: white;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.haha{
+    width:100%;
+    height:0.2rem;
+    background: #eeeeee;
+}
+.canHe{
+    width: 100%;
+    height:1.6rem;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.he{
+    font-weight: bold;
+    font-size: 0.45rem;
+    margin-left: 0.2rem;
+}
+.piao{
+    color:red;
+    margin-right: 0.2rem;
+}
+.ju{
+    width:100%;
+    height:0.6rem;
+    background: #f8f8f8;
+    text-align:center;
+    line-height: 0.6rem;
+    font-size: 0.3rem;
+    color: #999;
+}
+.list{
+    width:100%;
+    height:1.5rem;
+    background: #404143;
+    overflow: hidden;
+}
+.listLeft{
+    width:2.4rem;
+    height:1.5rem;
+    float: left;
+}
+.listLeft img{
+    display: block;
+    width:1.8rem;
+    height:1.3rem;
+    margin: auto;
+}
+.listRight{
+    width:5.25rem;
+    height:100%;
+    float: left;
+}
+.yuan{
+    margin-top: 0.2rem;
+    font-size: 0.45rem;
+    color: white;
+    font-weight: bold;
+}
+.fei{
+    font-size: 0.3rem;
+    color: #999;
+}
+.listlast{
+    width:3.15rem;
+    height:100%;
+    background: #56d176;
+    font-size: 0.45rem;
+    text-align: center;
+    line-height: 1.5rem;
+    float: left;
+    font-weight: bold;
+}
+.listlast a{
+    color:white;
+}

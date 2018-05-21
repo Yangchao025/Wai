@@ -1,0 +1,177 @@
+@import url("base.css");
+
+body{
+    height:7.7rem;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 633386 */
+    src: url('https://at.alicdn.com/t/font_633386_c4tvrg533e17zaor.eot');
+    src: url('https://at.alicdn.com/t/font_633386_c4tvrg533e17zaor.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_633386_c4tvrg533e17zaor.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_633386_c4tvrg533e17zaor.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_633386_c4tvrg533e17zaor.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+.box{
+    display: block;
+    width:10.8rem;
+    height:auto;
+    background: red;
+}
+.jian{
+    width:100%;
+    height:0.85rem;
+    background: #f7f3d0;
+    text-align: center;
+    font-size: 0.35rem;
+    line-height: 0.85rem;
+}
+.jian span{
+    font-size: 0.35rem;
+    color:#f69033;
+}
+.you{
+    font-size: 0.35rem;
+}
+.ago{
+    width:100%;
+    height:1.15rem;
+    background: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.agoleft{
+    width:3.2rem;
+    height:0.5rem;
+    margin-left: 0.2rem;
+    font-size: 0.4rem;
+}
+.agoleft span{
+    font-size: 0.3rem;
+    color: #999;
+}
+.agoright{
+    width:1.5rem;
+    height:0.5rem;
+    margin-right: 0.2rem;
+    font-size: 0.4rem;
+    color: #333;
+}
+.qing{
+    color: #999;
+}
+.xuan{
+    width:100%;
+    height:1.55rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gong {
+    font-size: 0.45rem;
+    font-weight: bold;
+    margin-left: 0.2rem;
+}
+.jia{
+    width: 3rem;
+    margin-right: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.money{
+    color: #fd4f34;
+}
+.jianhao{
+    color: #009cfd;
+    margin-left: 0.1rem;
+}
+.jiahao{
+    width:0.45rem;
+    height:0.45rem;
+    border-radius: 50%;
+    background: #2196fd;
+    color: white;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.haha{
+    width:100%;
+    height:0.2rem;
+    background: #eeeeee;
+}
+.canHe{
+    width: 100%;
+    height:1.6rem;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.he{
+    font-weight: bold;
+    font-size: 0.45rem;
+    margin-left: 0.2rem;
+}
+.piao{
+    color:red;
+    margin-right: 0.2rem;
+}
+.ju{
+    width:100%;
+    height:0.6rem;
+    background: #f8f8f8;
+    text-align:center;
+    line-height: 0.6rem;
+    font-size: 0.3rem;
+    color: #999;
+}
+.list{
+    width:100%;
+    height:1.5rem;
+    background: #404143;
+}
+.listLeft{
+    width:2.4rem;
+    height:1.5rem;
+    float: left;
+}
+.listLeft img{
+    display: block;
+    width:1.8rem;
+    height:1.3rem;
+    margin: auto;
+}
+.listRight{
+    width:5.25rem;
+    height:100%;
+    float: left;
+}
+.yuan{
+    margin-top: 0.2rem;
+    font-size: 0.45rem;
+    color: white;
+    font-weight: bold;
+}
+.fei{
+    font-size: 0.3rem;
+    color: #999;
+}
+.listlast{
+    width:3.15rem;
+    height:100%;
+    background: #56d176;
+    font-size: 0.45rem;
+    color:white;
+    text-align: center;
+    line-height: 1.5rem;
+    float: left;
+    font-weight: bold;
+}
+.listlast a{
+    color:white;
+}

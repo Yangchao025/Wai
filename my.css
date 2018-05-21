@@ -1,0 +1,192 @@
+@import url("base.css");
+
+@font-face {
+    font-family: 'iconfont';  /* project id 633386 */
+    src: url('https://at.alicdn.com/t/font_633386_69ja3y3tf4vd9529.eot');
+    src: url('https://at.alicdn.com/t/font_633386_69ja3y3tf4vd9529.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_633386_69ja3y3tf4vd9529.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_633386_69ja3y3tf4vd9529.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_633386_69ja3y3tf4vd9529.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+.header{
+    width:100%;
+    height:3.2rem;
+    background: #00a8fd;
+    overflow: hidden;
+}
+.nei{
+    display: block;
+    width:9.8rem;
+    height:2.2rem;
+    margin: auto;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nei img{
+    width:2.12rem;
+    height:2.12rem;
+}
+.right{
+    width:7rem;
+    height:100%;
+}
+.liji{
+    margin-top: 0.5rem;
+    font-size: 0.45rem;
+    color: white;
+}
+.right span{
+    font-size: 0.3rem;
+    color: white;
+}
+.zou{
+
+    font-size: 0.4rem;
+}
+.san{
+    width:100%;
+    height:2.4rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.mone{
+    width:33.333333%;
+    height:100%;
+    border-right: 1px solid #999;
+    overflow: hidden;
+}
+.yuan{
+    display: block;
+    width:1rem;
+    height:1rem;
+    border-radius: 50%;
+    background: #008efe;
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top:0.5rem
+}
+.mone p{
+    text-align: center;
+    margin-top: 0.2rem;
+    color:#666;
+}
+.hong{
+    font-size: 0.6rem;
+}
+.yuan2{
+    display: block;
+    width:1rem;
+    height:1rem;
+    border-radius: 50%;
+    background: #fe3500;
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top:0.5rem
+}
+.yuan3{
+    display: block;
+    width:1rem;
+    height:1rem;
+    border-radius: 50%;
+    background: #ffaa02;
+    font-size: 0.8rem;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top:0.5rem
+}
+.ge{
+    width:100%;
+    height:0.3rem;
+    background: #f5f5f5;
+}
+.shou{
+    width:100%;
+    height:1.45rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+}
+.wei{
+    margin-left: 0.4rem;
+    font-size: 0.6rem;
+    color: #49a5f2;
+}
+.shou p{
+    margin-left: 0.4rem;
+    font-size: 0.4rem;
+}
+.xin{
+    margin-left: 0.4rem;
+    font-size: 0.6rem;
+    color: #fc7b53;
+}
+.shop{
+    margin-left: 0.4rem;
+    font-size: 0.6rem;
+    color: #94d94a;
+}
+.ke{
+    margin-left: 0.4rem;
+    font-size: 0.6rem;
+    color: #52a7e8;
+}
+.zan{
+    margin-left: 0.4rem;
+    font-size: 0.6rem;
+    color: #52a7e8;
+}
+.meng{
+    margin-left: 0.4rem;
+    font-size: 0.6rem;
+    color: #52a7e8;
+}
+.last{
+    width:100%;
+    height:1.55rem;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.e{
+    font-size: 0.7rem;
+    color: #666;
+}
+.child{
+    text-align: center;
+}
+.child a p{
+    font-size: 0.4rem;
+    color: #999;
+}
+.a{
+    font-size: 0.9rem;
+    color: #666;
+}
+.c{
+    font-size: 0.7rem;
+    color: #666;
+}
+.active{
+    font-size: 0.7rem;
+    color: #008cf5;
+}
+#heng{
+    color: #008cf5;
+}
+
+
